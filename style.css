@@ -12,46 +12,57 @@ a {
     text-decoration: none;
   }
 
-.logo {
-    max-width: 250px;  
-    height: auto; 
-    margin-left: 100px;
-}
+  /* Header styling */
 
 .header-container {
     color: #E5E7EB;
     display: flex;
     padding: 10px;
     flex-direction: row;
-    justify-content:center;
+    justify-content:space-evenly;
     align-items:center;
-
 }
 
-.header-container div{
+.header-container.div{
     flex: 1 1 auto;
-
 }
 
+.logo {
+    max-width: 250px;  
+    height: auto; 
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+  }
+
+  /* Section One Styling */
 
 .section-one {
     color: white;
     display: flex;
-    padding: 10px;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
+    padding:20px;
 }
-.section-one div {
+.section-one.div {
     flex: 1 1 auto;
-
 }
 
 .section-one h1{
-    font-weight: bolder;
+    font-weight: extra-bold;
     font-size: 48px;
     color: #F9FAF8
+}
 
+.infowebsite {
+    max-width: 600px;
+    padding-right:30px;
 }
 
 .section-one img{
@@ -61,8 +72,9 @@ a {
     border-width: 5px;
     border-color: #E5E7EB;
     border-radius: 25px;
-
 }
+
+/* Section Two Syling */
 
 .section-two {
     background-color: #F9FAF8;
@@ -76,17 +88,14 @@ a {
 }
 .section-two div {
     flex: 1 1 auto;
-
 }
 
 .section-two h1{
-    font-weight: bolder;
-    font-size: 48px;
+    font-weight: extra-bold;
+    font-size: 36px;
     color: #1F2937;
     text-align: center;
-
 }
-
 
 .section-two-info {
     background-color: #F9FAF8;
@@ -94,27 +103,42 @@ a {
     display: flex;
     flex-direction: row;
     justify-content:center;
-    align-items: center;
+    align-items:flex-start;
     text-align: center;
-    
+    width: 100px;
 }
 
 .section-two-info div {
     flex: 1 1 auto;
-    padding-left: 15px;
-
+    padding-left: 30px;
 }
 
 .section-two-info img{
-    max-width: 150px;  
+    max-width: 230px;  
     height: auto; 
     border-style:solid;
     border-width: 3px;
     border-color: #1F2937;
     border-radius: 25px;
-
 }
 
+/* Section Three Syling */
+
+.section-three {
+    background-color: #E5E7EB;
+    margin: 0;
+    color: #1F2937;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.section-three div {
+    flex: 1 1 auto;
+}
+
+/* Footer Styling */
 .footer {
     background: #1F2937;
 }
